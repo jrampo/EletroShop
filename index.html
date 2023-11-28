@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eletro Shop</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div
+      id="carousel-test"
+      class="carousel carousel-fade slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div data-bs-interval="3000" class="carousel-item active">
+          <img src="./assets/keebs.jpeg" alt="Keyboard" />
+          <div class="carousel-caption">
+            <h3>Teclados</h3>
+          </div>
+        </div>
+        <div data-bs-interval="3000" class="carousel-item">
+          <img src="./assets/mice.jpg" alt="Keyboard" />
+          <div class="carousel-caption">
+            <h3>Mouse</h3>
+          </div>
+        </div>
+        <div data-bs-interval="3000" class="carousel-item">
+          <img src="./assets/headset.jpg" alt="Keyboard" />
+          <div class="carousel-caption">
+            <h3>Headset</h3>
+          </div>
+        </div>
+        <div data-bs-interval="3000" class="carousel-item">
+          <img src="./assets/mousepad.jpg" alt="Keyboard" />
+          <div class="carousel-caption">
+            <h3>Controles</h3>
+          </div>
+        </div>
+      </div>
+
+      <button
+        data-bs-target="#carousel-test"
+        data-bs-slide="prev"
+        class="carousel-control-prev"
+        type="button"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        data-bs-target="#carousel-test"
+        data-bs-slide="next"
+        class="carousel-control-next"
+        type="button"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carousel-test"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carousel-test"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carousel-test"
+          data-bs-slide-to="2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carousel-test"
+          data-bs-slide-to="3"
+        ></button>
+      </div>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

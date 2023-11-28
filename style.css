@@ -11,6 +11,11 @@
   object-fit: cover;
 }
 
-.carousel {
-  margin-top: 200px;
+li {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }

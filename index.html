@@ -10,71 +10,34 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="dropdown d-flex">
-        <button
-          data-bs-toggle="dropdown"
-          class="btn btn-primary dropdown-toggle"
-        >
-          Menu
-        </button>
-        <ul class="dropdown-menu dropdown-menu-dark">
-          <li class="dropdown-item"><a>Sobre</a></li>
-          <li class="dropdown-item"><a>Produtos</a></li>
-          <li class="dropdown-item">
-            <a href="https://google.com" target="_blank">Contato</a>
-          </li>
-        </ul>
-      </div>
-
-      <button
-        class="btn btn-success"
-        data-bs-toggle="modal"
-        data-bs-target="#exemplo-modal"
-      >
-        Abrir
-      </button>
-
-      <div class="modal" id="exemplo-modal" data-bs-backdrop="static">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5>Titulo modal</h5>
-              <button
-                data-bs-dismiss="modal"
-                class="btn btn-close"
-                type="button"
-              ></button>
-            </div>
-            <div class="modal-body">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Delectus ab perferendis, aspernatur autem accusamus at suscipit
-                vel, quaerat in numquam quo exercitationem neque, quod
-                reprehenderit eum perspiciatis molestiae dolores labore?
-              </p>
-            </div>
-            <div class="modal-footer">
-              <button
-                class="btn btn-danger"
-                data-bs-dismiss="modal"
-                type="button"
-              >
-                Cancelar
-              </button>
-              <button
-                class="btn btn-success"
-                data-bs-dismiss="modal"
-                type="button"
-              >
-                Confirmar
-              </button>
-            </div>
-          </div>
+    <header>
+      <div class="container">
+        <div class="navbar">
+          <h1>Eletro Shop</h1>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <nav class="collapse navbar-collapse" id="menu">
+            <ul class="nav nav-pills navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
-    </div>
-
+    </header>
     <div
       id="carousel-shop"
       class="carousel slide carousel-fade"
@@ -150,13 +113,5 @@
     </div>
 
     <script src="lib/bootstrap.bundle.min.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const modalEx = new bootstrap.Modal("#exemplo-modal");
-        setTimeout(function () {
-          modalEx.show();
-        }, 3000);
-      });
-    </script>
   </body>
 </html>

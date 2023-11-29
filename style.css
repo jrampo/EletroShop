@@ -11,11 +11,11 @@
   object-fit: cover;
 }
 
-li {
-  cursor: pointer;
+.nav-link {
+  text-align: center;
 }
 
-a {
-  text-decoration: none;
+.nav-link:hover {
+  background-color: blue;
   color: white;
 }

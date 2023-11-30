@@ -11,11 +11,14 @@
   object-fit: cover;
 }
 
-.nav-link {
-  text-align: center;
+.nav-link:hover {
+  background-color: rgb(170, 170, 170);
+  color: white;
+  padding: 8px;
 }
 
-.nav-link:hover {
-  background-color: blue;
-  color: white;
+@media (max-width: 750px) {
+  .nav-link {
+    text-align: center;
+  }
 }

@@ -83,5 +83,17 @@ h2 {
 }
 
 .btn-success {
-  margin: 0 20px 0 20px;
+  margin-right: 20px;
+}
+
+.nav-pills .nav-link.active {
+  background-color: rgb(170, 170, 170);
+}
+
+.nav-pills .nav-link {
+  color: black;
+}
+
+.nav-pills .nav-link:hover {
+  color: white;
 }

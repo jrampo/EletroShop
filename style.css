@@ -58,16 +58,16 @@ header {
   margin: 50px 0 50px 0;
 }
 
+span {
+  text-decoration: underline;
+}
+
 .form-control {
-  width: 40%;
+  width: 85%;
 }
 
 .form-check {
   margin-bottom: 20px;
-}
-
-.news {
-  font-weight: 600;
 }
 
 @media (max-width: 750px) {
@@ -86,6 +86,10 @@ header {
   #sobre {
     margin-top: 25px;
   }
+
+  #carousel-shop {
+    margin-top: 60px;
+  }
 }
 
 @media (max-width: 990px) and (min-width: 751px) {
@@ -95,6 +99,10 @@ header {
 
   .nav-link:hover {
     padding: 8px;
+  }
+
+  #carousel-shop {
+    margin-top: 60px;
   }
 }
 
@@ -118,4 +126,12 @@ header {
 
 .nav-pills .nav-link:hover {
   color: white;
+}
+
+i {
+  color: rgb(170, 170, 170);
+}
+
+footer {
+  background-color: rgb(170, 170, 170);
 }
